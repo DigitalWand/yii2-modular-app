@@ -1,0 +1,21 @@
+{
+    "name": "digitalwand/yii2-modular-app",
+    "description": "API to build modular Yii2 applications",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","module"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Volkov",
+            "email": "asgalex@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "digitalwand\\yii2ModularApp\\": "src/"
+        }
+    }
+}
