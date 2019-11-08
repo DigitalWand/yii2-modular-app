@@ -2,6 +2,7 @@
     "name": "digitalwand/yii2-modular-app",
     "description": "API to build modular Yii2 applications",
     "type": "yii2-extension",
+    "version": "1.0",
     "keywords": ["yii2","extension","module"],
     "license": "MIT",
     "authors": [
@@ -11,6 +12,7 @@
         }
     ],
     "require": {
+        "php": ">=7.3",
         "yiisoft/yii2": "~2.0.0"
     },
     "autoload": {
